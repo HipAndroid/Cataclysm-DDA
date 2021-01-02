@@ -2901,7 +2901,6 @@ static void CheckMessages()
                         last_input.type = CATA_INPUT_KEYBOARD;
                     }
                     last_input.text = ev.text.text;
-                    text_refresh = true;
                 }
                 break;
             case SDL_TEXTEDITING: {
